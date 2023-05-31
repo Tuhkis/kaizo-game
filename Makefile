@@ -36,3 +36,7 @@ all: main.o
 main.o: src/main.c
 	$(COMP) src/main.c
 
+clean:
+	rm *.o
+	rm $(OUT)
+
